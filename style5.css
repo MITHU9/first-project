@@ -1,0 +1,116 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.container{
+    width: 1000px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.pro-image{
+    height: 120px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h2,h3,h4{
+  color: rgb(255, 60, 0) ; 
+}
+.header-contact{
+     float: right;
+     padding: 30px;
+}
+.header-contact a{
+       text-decoration: none;
+       color: rgb(76, 0, 255);
+       font-weight: bold;
+}
+.header-contact a:hover{
+        text-decoration: underline;
+        color: crimson;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width:100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+#personal-info{
+
+}
+.content{
+     margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+   width: 70%;
+   float: left;
+}
+.common-hr{
+    border:solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+.edu1{
+    width: 45%;
+    float: left;
+}
+.edu2{
+    float: right;
+    width: 45%;
+}
+
+
+.ref1{
+    width: 45%;
+    float: left;
+}
+.ref2{
+    float: right;
+    width: 45%;
+}
+
+
+.footer{
+   background-color: black;
+   padding: 10px;
+   text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+    color: white;
+    margin-top:30px ;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
